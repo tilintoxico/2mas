@@ -1,0 +1,31 @@
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-dis{
+    background-color: #ab4493;
+    border-color: white;
+}
+.menu-horizontal .btn-dis{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal .btn-dis:hover{
+    background-color: rgb(99, 170, 99);
+    border-radius: 30px;
+}
+.menu-vertical .btn-dis:hover{
+    background-color: black;
+}
+.menu-vertical .btn-dis{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+}
+.menu-horizontal h3{
+    text-align: justify;
+}
